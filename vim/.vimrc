@@ -42,7 +42,7 @@ set hlsearch
 " Always show cursor position.
 set ruler
 
-" JavaScirpt/HMTL/CSS
+" JavaScript/HMTL/CSS
 autocmd Filetype javascript set shiftwidth=2
 autocmd Filetype html set shiftwidth=2
 autocmd Filetype css set shiftwidth=2
