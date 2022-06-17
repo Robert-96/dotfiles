@@ -1,0 +1,18 @@
+{
+    "editor.tabsize": 4,
+    "editor.insertSpaces": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "[python]": {
+        "editor.tabsize": 4
+    },
+    "[html]": {
+        "editor.tabsize": 2
+    },
+    "[json]": {
+        "editor.tabsize": 2
+    },
+    "[javascript]": {
+        "editor.tabsize": 2
+    }
+}
