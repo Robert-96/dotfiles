@@ -3,6 +3,7 @@
     "editor.insertSpaces": true,
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
     "[python]": {
         "editor.tabsize": 4
     },
