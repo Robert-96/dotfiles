@@ -15,5 +15,11 @@
     },
     "[javascript]": {
         "editor.tabsize": 2
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "[scss]": {
+        "editor.tabSize": 2
     }
 }
