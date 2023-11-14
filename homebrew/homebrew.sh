@@ -9,3 +9,5 @@ brew upgrade
 # Install command-line tools using Homebrew.
 brew install bat
 brew install tree
+brew install less 
+brew install git-delta
