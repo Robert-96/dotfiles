@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo ">>> Install Delta..."
+brew install git-delta
+
 echo ">>> Setup the .gitconfig file..."
 ln -s ~/.gitconfig .gitconfig 
 
