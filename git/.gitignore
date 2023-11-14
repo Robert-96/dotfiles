@@ -1,0 +1,4 @@
+# Global .gitignore File 
+
+# MacOS 
+.DS_Store
