@@ -11,3 +11,4 @@ brew install bat
 brew install tree
 brew install less 
 brew install git-delta
+brew install pipx
