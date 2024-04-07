@@ -9,6 +9,16 @@
     },
     "[python]": {
         "editor.tabSize": 4
+        "pipenvPath": "${env:HOME}/.local/bin/pipenv",
+        "poetryPath": "${env:HOME}/.local/bin/poetry",
+        "condaPath": "${env:HOME}/.local/bin/conda",
+        "linting.enabled": true,
+        "linting.banditPath": "${env:HOME}/.local/bin/bandit",
+        "linting.banditEnabled": true,
+        "linting.pylintPath": "${env:HOME}/.local/bin/pylint",
+        "linting.mypyPath": "${env:HOME}/.local/bin/mypy",
+        "linting.flake8Path": "${env:HOME}/.local/bin/flake8",
+        "formatting.blackPath": "${env:HOME}/.local/bin/black"
     },
     "[html]": {
         "editor.tabSize": 2
