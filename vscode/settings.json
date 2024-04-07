@@ -8,16 +8,20 @@
         "editor.tabSize": 2
     },
     "[python]": {
-        "editor.tabSize": 4
+        "editor.tabSize": 4,
+        "editor.codeActionsOnSave": {"source.organizeImports": true},
         "pipenvPath": "${env:HOME}/.local/bin/pipenv",
         "poetryPath": "${env:HOME}/.local/bin/poetry",
         "condaPath": "${env:HOME}/.local/bin/conda",
         "linting.enabled": true,
+        "linting.lintOnSave": true,
         "linting.banditPath": "${env:HOME}/.local/bin/bandit",
         "linting.banditEnabled": true,
         "linting.pylintPath": "${env:HOME}/.local/bin/pylint",
+        "linting.pylintEnabled": true,
         "linting.mypyPath": "${env:HOME}/.local/bin/mypy",
         "linting.flake8Path": "${env:HOME}/.local/bin/flake8",
+        "linting.flake8Enabled": true,
         "formatting.blackPath": "${env:HOME}/.local/bin/black"
     },
     "[html]": {
