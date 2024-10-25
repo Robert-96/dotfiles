@@ -29,12 +29,12 @@
   },
   "open": {
     "prefix": "open",
-    "body": "with open(\"$1\") as ${2:fp}:\n\t${3:data = fp.read()}$0",
+    "body": "with open(\"$1\") as ${2:fp}:\n\t${3:data = ${2}.read()}$0",
     "description" : "Open a file with auto-close after reading."
   },
   "jsonfp": {
     "prefix": "jsonfp",
-    "body": "with open(\"$1\") as ${2:fp}:\n\t${3:data} = json.load(${4:fp})$0",
+    "body": "with open(\"$1\") as ${2:fp}:\n\t${3:data} = json.load(${2})$0",
     "description" : "Load JSON data from a file."
   },
   "if": {
