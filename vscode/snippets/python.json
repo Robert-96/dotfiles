@@ -23,7 +23,7 @@
     "description": "Basic print statement for output."
   },
   "printf": {
-    "prefix": "print",
+    "prefix": "printf",
     "body": "print(f\"${1}\")$0",
     "description": "Formatted print statement for interpolated output."
   },
