@@ -24,6 +24,9 @@
         "linting.flake8Enabled": true,
         "formatting.blackPath": "${env:HOME}/.local/bin/black"
     },
+    "[yaml]": {
+        "editor.tabSize": 2
+    }.
     "[html]": {
         "editor.tabSize": 2
     },
