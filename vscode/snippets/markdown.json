@@ -1,0 +1,50 @@
+{
+  "Alert": {
+    "prefix": "alert",
+    "body": [
+      "> [!$1]", 
+      "> $0"
+    ]
+    "description": "Create a GitHub style alert."
+  },
+  "Note Alert": {
+    "prefix": ["note", "note-alert"],
+    "body": [
+      "> [!NOTE]", 
+      "> $0"
+    ]
+    "description": "Create a GitHub style note alert."
+  },
+  "Tip Alert": {
+    "prefix": ["tip", "tip-alert"],
+    "body": [
+      "> [!TIP]", 
+      "> $0"
+    ]
+    "description": "Create a GitHub style tip alert.""
+  },
+  "Important Alert": {
+    "prefix": ["important", "important-alert"],
+    "body": [
+      "> [!IMPORTANT]", 
+      "> $0"
+    ]
+    "description": "Create a GitHub style important alert.""
+  },
+  "Warning Alert": {
+    "prefix": ["warning", "warning-alert"],
+    "body": [
+      "> [!WARNING]", 
+      "> $0"
+    ]
+    "description": "Create a GitHub style warning alert.""
+  },
+  "Caution Alert": {
+    "prefix": ["caution", "caution-alert"],
+    "body": [
+      "> [!CAUTION]", 
+      "> $0"
+    ]
+    "description": "Create a GitHub style caution alert.""
+  }
+}
