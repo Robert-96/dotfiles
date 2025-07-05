@@ -21,7 +21,7 @@
       "> [!TIP]", 
       "> $0"
     ]
-    "description": "Create a GitHub style tip alert.""
+    "description": "Create a GitHub style tip alert."
   },
   "Important Alert": {
     "prefix": ["important", "important-alert"],
@@ -29,7 +29,7 @@
       "> [!IMPORTANT]", 
       "> $0"
     ]
-    "description": "Create a GitHub style important alert.""
+    "description": "Create a GitHub style important alert."
   },
   "Warning Alert": {
     "prefix": ["warning", "warning-alert"],
@@ -37,7 +37,7 @@
       "> [!WARNING]", 
       "> $0"
     ]
-    "description": "Create a GitHub style warning alert.""
+    "description": "Create a GitHub style warning alert."
   },
   "Caution Alert": {
     "prefix": ["caution", "caution-alert"],
@@ -45,6 +45,6 @@
       "> [!CAUTION]", 
       "> $0"
     ]
-    "description": "Create a GitHub style caution alert.""
+    "description": "Create a GitHub style caution alert."
   }
 }
